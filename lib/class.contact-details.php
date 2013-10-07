@@ -28,6 +28,12 @@ final class BirdBrain_Contact_Details {
 	
 	public static function _options_page () {
 	
+		// Check if posting, if so, save data
+		if( !empty( $_POST ) )
+			update_option( 'contact_details', $_POST['contact_details'] );
+			
+		$details = get_option( 'contact_details' );
+		
 		// Array for storing form structure
 		$data = array(
 		
@@ -97,6 +103,8 @@ final class BirdBrain_Contact_Details {
 		
 		echo '	<p>Enter your contact details below. To display any particular contact details on your website, use the shortcode supplied</p>';
 
+		echo '	<form id="contact-details" name="contact-details" method="POST" action="#">';
+		
 		// Loop through "sections" and output form fields
 		foreach( $data as $section => $fields ) {
 		
@@ -107,14 +115,17 @@ final class BirdBrain_Contact_Details {
 			foreach( $fields as $key => $title ) {
 			
 				echo '<label for="' . $key . '">' . $title . '</label>';
-				echo '<input type="text" name="' . $key . '" value="" /><br /><br />';	
+				echo '<input type="text" name="contact_details[' . $key . ']" value="' . $details[$key] . '" /><br /><br />';	
 			}
-				
-			
+					
 			echo '</div>';
 		
 		}
-				
+		
+		echo '<input type="submit" value="Save Details" class="button button-primary" />';
+		
+		echo '	</form>';
+
 		echo '</div>';
 	
 	}
