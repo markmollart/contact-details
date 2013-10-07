@@ -39,10 +39,53 @@ final class BirdBrain_Contact_Details {
 			
 			),
 			
-			'Address 1' => array(),
-			'Address 2' => array(),
-			'Australian Business Numbers' => array(),
-			'Social Media Links' => array()
+			'Address 1' => array(
+				
+				'location_name' => 'Location Name',
+				'phone_number' => 'Phone Number',
+				'fax' => 'Fax',
+				'mobile' => 'Mobile',
+				'email_address' => 'Email Address',
+				'street_number_name' => 'Street Number &amp; Name',
+				'suburb' => 'Suburb',
+				'postcode' => 'Postcode',
+				'state' => 'State',
+				'country' => 'Country',
+				'business_hours' => 'Business Hours'
+			
+			),
+			'Address 2' => array(
+			
+				'location_name_2' => 'Location Name',
+				'phone_number_2' => 'Phone Number',
+				'fax_2' => 'Fax',
+				'mobile_2' => 'Mobile',
+				'email_address_2' => 'Email Address',
+				'street_number_name_2' => 'Street Number &amp; Name',
+				'suburb_2' => 'Suburb',
+				'postcode_2' => 'Postcode',
+				'state_2' => 'State',
+				'country_2' => 'Country',
+				'business_hours_2' => 'Business Hours'
+			
+			),
+			'Australian Business Numbers' => array(
+			
+				'abn' => 'ABN',
+				'acn' => 'ACN'
+				
+			),
+			'Social Networking' => array(
+			
+				'facebook' => 'Facebook',
+				'twitter' => 'Twitter',
+				'myspace' => 'Myspace',
+				'linkedin' => 'linkedin',
+				'googleplus' => 'Google+',
+				'pinterest' => 'pinterest',
+				'youtube' => 'youtube'
+				
+			)
 		
 		);
 		
