@@ -80,10 +80,10 @@ final class BirdBrain_Contact_Details {
 				'facebook' => 'Facebook',
 				'twitter' => 'Twitter',
 				'myspace' => 'Myspace',
-				'linkedin' => 'linkedin',
+				'linkedin' => 'LinkedIn',
 				'googleplus' => 'Google+',
-				'pinterest' => 'pinterest',
-				'youtube' => 'youtube'
+				'pinterest' => 'Pinterest',
+				'youtube' => 'YouTube'
 				
 			)
 		
