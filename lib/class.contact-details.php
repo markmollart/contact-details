@@ -10,6 +10,19 @@ final class BirdBrain_Contact_Details {
 		add_action( 'admin_menu', array( __CLASS__, 'admin_menu' ) );
 		add_action( 'admin_init', array( __CLASS__, 'admin_init' ) );
 		
+		// Register primary shortcode
+		add_shortcode( 'contact', array( __CLASS__, '_shortcode' ) );
+		
+	}
+	
+	public static function _shortcode ( $attributes ) {
+	
+		if( !isset( $attributes['type'] ) )
+			return;
+			
+		if( $data = get_option( 'contact_details' ) )
+			echo $data[$attributes['type']];
+	
 	}
 	
 	public static function admin_init () {
