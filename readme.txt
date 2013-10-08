@@ -42,6 +42,9 @@ If you have found this plugin useful, consider taking a moment to rate it.
 
 == Changelog ==
 
+= 1.1 =
+* Modified shortcode behaviour to return output instead of directly printing
+
 = 1.0 =
 * Initial release of plugin
 
