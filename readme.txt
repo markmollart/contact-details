@@ -1,4 +1,4 @@
-=== Post Navigator ===
+=== Contact Details ===
 Contributors: BirdBrain Logic
 Donate link: 
 Tags: contact,details,address,email,fax,global,info,mobile,options,phone
@@ -12,7 +12,7 @@ Display your contact details with a simple shortcode!
 
 == Description ==
 
-Adds the ability to save contact information in the administrator area. These details can then be displayed in any theme using a simple shortcode.
+Adds the ability to save contact information in the administration area. These details can then be displayed in any theme using a simple shortcode.
 
 = Features =
 
