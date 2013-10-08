@@ -115,7 +115,10 @@ final class BirdBrain_Contact_Details {
 			foreach( $fields as $key => $title ) {
 			
 				echo '<label for="' . $key . '">' . $title . '</label>';
-				echo '<input type="text" name="contact_details[' . $key . ']" value="' . $details[$key] . '" /><br /><br />';	
+				echo '<input type="text" name="contact_details[' . $key . ']" value="' . $details[$key] . '" />&nbsp;&nbsp;&nbsp;';
+				echo '<em>[contact type="' . $key . '"]</em>';				
+				echo '<br /><br />';
+				
 			}
 					
 			echo '</div>';
