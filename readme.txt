@@ -42,6 +42,9 @@ If you have found this plugin useful, consider taking a moment to rate it.
 
 == Changelog ==
 
+= 1.2.2 =
+* Small security updates
+
 = 1.2.1 =
 * Removed italics from shortcode tip on Contact Details page. This was potentially italicizing content when copy+pasted in to posts or pages.
 
