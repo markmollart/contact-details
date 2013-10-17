@@ -25,7 +25,7 @@ If you have found this plugin useful, consider taking a moment to rate it.
 
 == Installation ==
 
-1. Upload the `post-navigator` folder to the `/wp-content/plugins/` directory
+1. Upload the `contact-details` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently asked questions ==
