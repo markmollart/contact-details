@@ -20,7 +20,6 @@ Adds the ability to save contact information in the administration area. These d
 * Display your contact details anywhere in your theme using a simple shortcode. EG, [contact type=“business_name”]
 * All available shortcodes are displayed on the Contact Details page
 
-
 If you have found this plugin useful, consider taking a moment to rate it.
 
 == Installation ==
