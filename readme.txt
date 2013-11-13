@@ -43,6 +43,7 @@ If you have found this plugin useful, consider taking a moment to rate it.
 
 = 1.2.3 =
 * Added WP Nonce verification to options page
+* Added notification upon save to let the user know what happened, either success or failure
 
 = 1.2.2 =
 * Small security updates
