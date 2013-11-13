@@ -114,17 +114,21 @@ final class BirdBrain_Contact_Details {
 		
 		// Check if posting, if so, save data
 		if( !empty( $_POST ) && isset( $_POST['_nonce'] ) ) {
-		
-			echo '<div id="message" class="updated below-h2">';
 			
 			if( wp_verify_nonce( $_POST['_nonce'], '_contact_details' ) ) {
-			
+				
+				echo '<div id="message" class="updated below-h2">';
+							
 				update_option( 'contact_details', array_map( 'sanitize_text_field', $_POST['contact_details'] ) );
 				echo '<p>Successfully updated your Contact Details.</p>';
 			
 			}
-			else
-			echo '<p>Could not verify this action. Please try again.</p>';
+			else {
+			
+				echo '<div id="message" class="error below-h2">';
+				echo '<p>Could not verify this action. Please try again.</p>';
+				
+			}
 			
 			echo '</div>';
 				
