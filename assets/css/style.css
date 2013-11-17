@@ -18,3 +18,7 @@
 		display: inline-block;
 		width: 150px;
 	}
+	
+a.add-section {
+	padding-left: 25px;
+}

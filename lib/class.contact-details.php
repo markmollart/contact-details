@@ -153,7 +153,13 @@ final class BirdBrain_Contact_Details {
 				echo '<br /><br />';
 				
 			}
-					
+			
+			echo '<a class="add-field">Add a new field</a>';
+			
+			echo '</div>';
+			
+			echo '<div class="section">';
+			echo '	<p><a class="add-section" href="#">Add a new section</a></p>';
 			echo '</div>';
 		
 		}
