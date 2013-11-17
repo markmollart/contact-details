@@ -31,6 +31,7 @@ final class BirdBrain_Contact_Details {
 	
 		// Output styles
 		wp_enqueue_style( 'style.css', plugins_url( 'assets/css', dirname( __FILE__ ) ) . '/style.css', false, false, 'all' );
+		wp_enqueue_style( 'font-awesome.css', plugins_url( 'assets/css', dirname( __FILE__ ) ) . '/font-awesome.min.css', false, false, 'all' );
 	
 	}
 	
@@ -154,12 +155,12 @@ final class BirdBrain_Contact_Details {
 				
 			}
 			
-			echo '<a class="add-field">Add a new field</a>';
+			echo '<a class="add-field"><i class="fa fa-plus-square-o"></i>&nbsp;Add a new field</a>';
 			
 			echo '</div>';
 			
 			echo '<div class="section">';
-			echo '	<p><a class="add-section" href="#">Add a new section</a></p>';
+			echo '	<p><a class="add-section"><i class="fa fa-plus-square"></i>&nbsp;Add a new section</a></p>';
 			echo '</div>';
 		
 		}
